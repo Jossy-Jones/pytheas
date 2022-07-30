@@ -1,0 +1,27 @@
+{
+  "name": "janus",
+  "version": "1.0.0",
+  "description": "Gatekeeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --trace-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jossy-Jones/janus.git"
+  },
+  "keywords": [
+    "Gatekeeper",
+    "Janus"
+  ],
+  "author": "Jossy Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jossy-Jones/janus/issues"
+  },
+  "homepage": "https://github.com/Jossy-Jones/janus#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
