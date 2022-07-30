@@ -1,5 +1,5 @@
 /*
- * -----Janus-----
+ * -----Pytheas-----
  * Copyright(c) 2022 Jossy Jones
  * MIT License
 */
@@ -13,7 +13,7 @@ const Path = require("path");
 const StringDecoder = require('string_decoder').StringDecoder;
 
 // Module
-const Janus = function janus() {
+const Pytheas = function pytheas() {
 
     let Server = function server() {
         Server._routes = [];
@@ -111,4 +111,4 @@ const Janus = function janus() {
     return Server
 }
 
-module.exports = Janus;
+module.exports = Pytheas;
