@@ -1,6 +1,6 @@
 {
   "name": "pytheas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatekeeper",
   "main": "index.js",
   "scripts": {
@@ -9,16 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jossy-Jones/janus.git"
+    "url": "git+https://github.com/Jossy-Jones/pytheas.git"
   },
   "keywords": [
-    "Gatekeeper",
-    "Janus"
+    "Pytheas"
   ],
   "author": "Jossy Jones",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jossy-Jones/janus/issues"
+    "url": "https://github.com/Jossy-Jones/pytheas/issues"
   },
-  "homepage": "https://github.com/Jossy-Jones/janus#readme"
+  "homepage": "https://github.com/Jossy-Jones/pytheas#readme"
 }
