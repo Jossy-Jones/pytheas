@@ -1,6 +1,6 @@
 {
   "name": "pytheas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gatekeeper",
   "main": "index.js",
   "scripts": {

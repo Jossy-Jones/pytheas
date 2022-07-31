@@ -2,5 +2,8 @@
 "use strict"
 const Server = require("./server");
 
-module.exports = Server;
+const Pytheas = ()=>{
+    return Server.init();
+}
 
+module.exports = Pytheas;
