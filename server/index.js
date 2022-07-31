@@ -73,7 +73,6 @@ let RenderRoutes = (routes) => {
             Server._response.end("Not found");
         }
     } else {
-        console.log(false);
         Server._response.writeHead(404);
         Server._response.end("Not found");
     }
@@ -84,8 +83,7 @@ Server.Router = () => {
         routes = typeof (routes) === "object" && routes instanceof Array && routes.length > 0 ? [...new Set(routes)] : false;
         if (routes) {
             if (Server._routes) {
-                Server._routes.push(...routes)
-                console.log(Server._routes)
+                Server._routes.push(...routes);
             } else {
                 Server._routes = routes;
             }
@@ -112,4 +110,4 @@ Server.init = ()=>{
     }
 }
 
-module.exports = Server;
+module.exports = Server.init;

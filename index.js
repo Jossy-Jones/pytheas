@@ -3,7 +3,8 @@
 const Server = require("./server");
 
 const Pytheas = ()=>{
-    return Server.init();
+    return Server();
 }
+
 
 module.exports = Pytheas;
