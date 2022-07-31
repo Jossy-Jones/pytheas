@@ -1,11 +1,11 @@
 # Pytheas
 
 ```js
-const Pytheas = require('pytheas')
-const app = Pytheas()
+const Pytheas = require('pytheas');
+const app = Pytheas();
 
 app.listen(3000);
-app.routes([
+app.Router().routes([
     {
         path: "/",
         method: "get",
@@ -13,7 +13,7 @@ app.routes([
             context.response.send("Hello World!");
         }
     },
-])
+]);
 ```
 
 ## Installation

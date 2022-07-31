@@ -68,7 +68,7 @@ const Pytheas = function pytheas() {
                         request: {
                             body: buffer,
                             headers: Server._request.headers,
-                            authetication: Server._request.a
+                            // authetication: Server._request.a
                         },
                         response: {
                             status: (payload = 200) => {
